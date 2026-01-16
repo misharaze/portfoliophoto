@@ -28,7 +28,33 @@ return (
       <p>hello@ivan.photo</p>
       <p>+7 (900) 000-00-00</p>
       <div className="socials">
-        <a aria-label="VK" href="#">VK</a>
+        
+        <a
+    href="https://vk.com/your_profile"
+    aria-label="VK"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    VK
+  </a>
+
+  <a
+    href="https://www.instagram.com/your_profile"
+    aria-label="Instagram"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://www.pinterest.com/your_profile"
+    aria-label="Pinterest"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Pinterest
+  </a>
       </div>
     </div>
 
