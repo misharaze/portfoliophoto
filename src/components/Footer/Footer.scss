@@ -1,0 +1,111 @@
+.site-footer {
+    margin-top: 60px;
+    color: var(--color-text);
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    
+    
+    .footer-inner {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 48px 20px;
+    align-items: start;
+    }
+    
+    
+    .col h4 {
+         margin: 0 0 12px 0; 
+         color: var(--color-accent); 
+        
+        }
+    .brand-col .logo {
+         font-size: 22px;
+         font-weight:700; 
+         color: #fff; 
+        }
+    .brand-col .tag { 
+        color: var(--color-text); 
+        opacity: 0.8; margin-top:8px 
+    }
+    
+    
+    .links-col ul {
+         list-style:none;
+          padding:0; margin:0; 
+        }
+    .links-col li { 
+        margin-bottom:8px
+     }
+    .links-col a {
+         color: #cfcfcf;
+          text-decoration:none 
+        }
+    .links-col a:hover {
+         color: var(--color-accent); 
+
+        }
+    
+    
+    .contact-col .socials a {
+
+
+         display:inline-block;
+          margin-right:10px;
+           padding:6px 8px;
+            border-radius:8px; 
+            background: rgba(255,255,255,0.02);
+             text-decoration:none 
+            
+            }
+    
+    
+    .newsletter {
+         display:flex;
+          gap:8px 
+        
+        }
+    .newsletter input { 
+        flex:1; 
+        padding:10px 12px; 
+        border-radius:10px;
+         border:1px solid rgba(255,255,255,0.06);
+          background: rgba(255,255,255,0.02);
+           color: #fff
+         }
+
+    .newsletter .btn { 
+        padding:10px 14px;
+        border-radius:10px; 
+        background: var(--color-accent);
+        border:none }
+    
+    
+    .footer-bottom {
+         border-top: 1px solid rgba(255,255,255,0.03);
+          padding: 14px 0; margin-top: 18px;
+           background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); 
+        
+        }
+    .footer-bottom .container {
+        display:flex;
+         justify-content:space-between;
+         align-items:center;
+          font-size:14px;
+           color: rgba(255,255,255,0.7) }
+    
+    
+    .back-to-top {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,0.04);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: var(--shadow-deep);
+    }
+    }

@@ -1,0 +1,47 @@
+.gallery-grid { 
+    display:grid;
+
+     grid-template-columns:
+     
+      repeat(auto-fit, minmax(220px, 1fr));
+
+     gap:18px;
+
+      padding:24px 0;
+
+     }
+
+.card {
+     background: linear-gradient(180deg, rgba(255,255,255,0.02),
+      transparent); 
+
+
+     border-radius:12px;
+      overflow:hidden;
+
+
+       cursor:pointer;
+       
+       box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+
+     }
+.card .img {
+
+
+     height: 180px;
+     
+     background-size:cover;
+     
+     background-position:center;
+
+     }
+
+.meta {
+
+     padding:12px; 
+    }
+
+.title { 
+    font-weight:600; 
+
+}

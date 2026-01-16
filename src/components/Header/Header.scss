@@ -1,0 +1,80 @@
+.site-header {
+    .brand {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 0 0 25px rgba(255,0,93,0.5);
+    cursor: default;
+    
+    
+        backdrop-filter: blur(12px);
+        background: rgba(0,0,0,0.35);
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+      
+    
+    
+    .accent {
+    color: #ff005d;
+    text-shadow: 0 0 45px rgba(255,0,93,0.7);
+    }
+    }
+    
+    
+    .nav {
+    display: flex;
+    gap: 28px;
+    
+    
+    a {
+    position: relative;
+    color: #bcbcbc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0;
+    transition: all 0.3s ease;
+    
+    
+    &:hover {
+    color: #ff005d;
+    text-shadow: 0 0 25px rgba(255,0,93,0.5);
+    }
+    
+    
+    &.active {
+    color: #ff005d;
+    font-weight: 600;
+    }
+    
+    
+    &::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ff005d;
+    transition: width 0.3s ease;
+    }
+    
+    
+    &:hover::after, &.active::after {
+    width: 100%;
+    }
+    }
+    }
+    }
+    
+    
+    @media (max-width: 768px) {
+    .site-header .header-inner {
+    flex-direction: column;
+    gap: 12px;
+    }
+    .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    }

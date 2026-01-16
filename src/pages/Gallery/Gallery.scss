@@ -1,0 +1,53 @@
+.gallery {
+    h1 {
+      font-size: 2.4rem;
+      color: #fff;
+      margin-bottom: 40px;
+      text-shadow: 0 0 15px rgba(255,0,90,0.4);
+      text-align: center;
+    }
+  }
+  
+ 
+  .category-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-bottom: 40px;
+  }
+  
+  .category-block {
+    width: 220px; 
+    text-align: center;
+  }
+  
+  .category-title {
+    color: #ff1a7f;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+  }
+  
+
+  .collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+  
+  .collage-item {
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.25s;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255,0,90,0.4);
+    }
+  }
+  
