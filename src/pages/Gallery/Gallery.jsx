@@ -16,14 +16,14 @@ function Gallery() {
   }, [])
 
   const categories = [
-    "Mariage",
-    "Portrait",
-    "Éditorial",
-    "Intérieurs",
-    "Paysage",
-    "Événement",
-    "Animaux",
-    "Famille"
+    "mariage",
+    "portrait",
+    "editorial",
+    "intérieurs",
+    "paysage",
+    "evénement",
+    "animaux",
+    "famille"
   ]
 
   const grouped = categories.map(cat => ({
